@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.staytitle {
+  color: #18537a;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.staybody {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 16px;
+  background: #f0fbff;
+  color: #777;
+  justify-content: center;
+  align-items: center;
+}
+
+.stayeventcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stayitem-container {
+  position: relative;
+  margin: 24px;
+  width: 320px;
+  height: 570px;
+  overflow: hidden;
+  background-color: gray;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  text-align: center;
+}
+
+.staybody-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.staybody-container {
+  position: relative;
+  background-color: white;
+}
+
+staybody-container:focus {
+  outline: none;
+}
+
+.staytitlecontent {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.stayaddress {
+  margin-top: 20px;
+}
+
+.staymap {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: #0000ee;
+}
+.staymap:hover {
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.iframes {
+  width: 250px;
+  height: 300px;
+  border: 0;
+  margin-top: 20px;
+}
+
+.staytext {
+  text-align: center;
+  margin-top: 20px;
+  font-size: x-large;
+}

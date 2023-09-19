@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
+import CountDown from "./components/CountDown/CountDown";
+import Events from "./components/Events/Events";
+import Stay from "./components/Stay/Stay";
+import Transport from "./components/Transport/Transport";
+import Backgroundimage from "./components/Backgroundimage/Backgroundimage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="background-image"></div>
+      <h1>Janaki & Vinay</h1>
+      <NavBar />
+      <CountDown />
+      {/* <Backgroundimage/> */}
+      <Events />
+      <Stay />
+      <Transport />
     </div>
   );
 }
