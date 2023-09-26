@@ -1,7 +1,8 @@
 Developed a wedding website for my sister using Javascript, React, HTML and CSS.
 A little sneak peak of the website:
 
-![image](https://github.com/badri119/Wedding-Website/assets/90651004/c2708c16-425f-4b51-b7d1-514c62dc52bd)
+![image](https://github.com/badri119/Wedding-Website/assets/90651004/9cb7a2ff-ddaf-414d-8b10-65652aad8f90)
+
  
 Getting Started with Create React App
 This project was bootstrapped with Create React App.
