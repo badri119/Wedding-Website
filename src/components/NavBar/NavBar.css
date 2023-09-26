@@ -20,11 +20,11 @@
   z-index: 10;
 }
 .primary-header.is-pinned .navlinks {
-  color: #18537a;
+  color: #f08e80;
 }
 
 .primary-header.is-pinned {
-  background-color: #f0fbff;
+  background-color: #fff2ea;
 }
 
 /* .primary-header {

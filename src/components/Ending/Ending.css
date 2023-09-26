@@ -1,0 +1,35 @@
+.bodyending {
+  background-color: #fff2ea;
+}
+
+.endingstyling {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.endingtext {
+  padding-top: 10%;
+  color: #f08e80;
+}
+
+.rsvp_button_ending {
+  color: white;
+  background-color: #f08e80;
+  border: 1px solid white;
+  padding: 15px 95px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 100%;
+  position: relative;
+  top: 60px;
+}
+
+.rsvp_button_ending:hover,
+.rsvp_button_ending:focus {
+  color: white;
+  transition: 0.5s;
+  opacity: 0.6;
+}
