@@ -46,10 +46,20 @@ const Events = () => {
                 </p>
 
                 <p className="info description">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  "Sip, Savor, and Celebrate with us at our Cocktail Night! Join
+                  us for an evening of delicious drinks, dance and delightful
+                  company as we kick off our wedding festivities in style.
                 </p>
+                <div>
+                  <a
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="rsvp_button_events"
+                  >
+                    RSVP
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -90,10 +100,20 @@ const Events = () => {
                 </p>
 
                 <p className="info description">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  At the heart of every Indian wedding is the 'Muhurtham' – the
+                  auspicious and carefully chosen moment that marks the
+                  beginning of our lifelong journey together.
                 </p>
+                <div>
+                  <a
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="rsvp_button_events"
+                  >
+                    RSVP
+                  </a>
+                </div>
               </div>
             </div>
           </div>

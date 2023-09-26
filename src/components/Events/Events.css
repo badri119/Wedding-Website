@@ -16,15 +16,16 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 100px;
 }
 
 .item-container {
   position: relative;
   margin: 24px;
-  width: 320px;
-  height: 570px;
+  width: 350px;
+  height: 640px;
   overflow: hidden;
-  background-color: gray;
+  background-color: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -71,9 +72,9 @@
 }
 
 .title {
-  color: #18537a;
+  color: black;
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: 500;
   letter-spacing: 1px;
   margin: 12px;
 }
@@ -86,7 +87,7 @@
 .separator {
   width: 20%;
   height: 6px;
-  background-color: #17537a;
+  background-color: black;
   margin-bottom: 16px;
 }
 
@@ -147,7 +148,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 500;
-  color: #18537a;
+  color: #f08e80;
   text-align: center;
 }
 
@@ -158,8 +159,8 @@
 .venuelink {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  font-weight: bolder;
-  color: #0000ee;
+  font-weight: 500px;
+  color: #f08e80;
 }
 
 .venuelink:hover {
@@ -168,4 +169,23 @@
 
 .hoveringinfo {
   margin-bottom: 2px;
+}
+
+.rsvp_button_events {
+  position: relative;
+  text-decoration: none;
+  top: 12px;
+  color: white;
+  background-color: #f08e80;
+  border: 1px solid white;
+  padding: 15px 35px;
+  border-radius: 4px;
+  left: 75px;
+}
+
+.rsvp_button_events:hover,
+.rsvp_button_events:focus {
+  color: white;
+  transition: 0.5s;
+  opacity: 0.6;
 }

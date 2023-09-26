@@ -4,6 +4,7 @@ import CountDown from "./components/CountDown/CountDown";
 import Events from "./components/Events/Events";
 import Stay from "./components/Stay/Stay";
 import Transport from "./components/Transport/Transport";
+import Ending from "./components/Ending/Ending";
 import Backgroundimage from "./components/Backgroundimage/Backgroundimage";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Events />
       <Stay />
       <Transport />
+      <Ending />
     </div>
   );
 }
