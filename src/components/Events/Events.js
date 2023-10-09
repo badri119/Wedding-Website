@@ -52,7 +52,7 @@ const Events = () => {
                 </p>
                 <div>
                   <a
-                    href="https://www.youtube.com/"
+                    href="https://forms.gle/rnnJHmGZM4VnY6A68"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="rsvp_button_events"
@@ -106,7 +106,7 @@ const Events = () => {
                 </p>
                 <div>
                   <a
-                    href="https://www.youtube.com/"
+                    href="https://forms.gle/rnnJHmGZM4VnY6A68"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="rsvp_button_events"
