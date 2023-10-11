@@ -6,7 +6,6 @@ import Stay from "./components/Stay/Stay";
 import Transport from "./components/Transport/Transport";
 import Ending from "./components/Ending/Ending";
 import Backgroundimage from "./components/Backgroundimage/Backgroundimage";
-
 function App() {
   return (
     <div className="App">
