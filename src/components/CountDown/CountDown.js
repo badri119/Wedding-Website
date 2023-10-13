@@ -1,5 +1,7 @@
 import React from "react";
 import "./CountDown.css";
+import { IoChevronDownCircleSharp } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 var countDownDate = new Date("Dec 4, 2023 09:00:00").getTime();
 var x = setInterval(function () {
@@ -28,7 +30,7 @@ const CountDown = () => {
   return (
     <div className="container">
       <div className="content">
-        <div className="pizza">Countdown</div>
+        {/* <div className="pizza">Countdown</div> */}
         <div className="countdown">
           <div>
             <p id="days">00</p>
@@ -59,6 +61,15 @@ const CountDown = () => {
         >
           RSVP
         </a>
+      </div>
+      <div className="scroll-button">
+        <Link to="eventsScroll" smooth={true} duration={500}>
+          <IoChevronDownCircleSharp
+            color="white"
+            size="45px"
+            className="scroll"
+          />
+        </Link>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@
 .primary-header {
   padding: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   font-weight: bold;
   font-size: large;
@@ -18,6 +18,7 @@
   background: none;
   text-decoration: none;
   z-index: 10;
+  visibility: hidden;
 }
 .primary-header.is-pinned .navlinks {
   color: #f08e80;
@@ -25,6 +26,17 @@
 
 .primary-header.is-pinned {
   background-color: #fff2ea;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+  position: sticky;
+  top: -1px;
+  text-decoration: none;
+  z-index: 10;
+  visibility: visible;
 }
 
 /* .primary-header {
@@ -48,6 +60,7 @@
   padding: 0;
   display: flex;
   gap: clamp(0.5rem, 5vw, 2rem);
+  margin-top: 1%;
 }
 
 .navlinks:link,
@@ -58,7 +71,37 @@
 
 .navlinks {
   transition: transform 0.5s;
+  cursor: pointer;
 }
 .navlinks:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 767px) {
+  .primary-header {
+    /* background-color: #fff2ea; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    position: sticky;
+    top: -1px;
+    text-decoration: none;
+    z-index: 10;
+  }
+
+  .navlinks:link,
+  .navlinks:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .primary-header.is-pinned .navlinks {
+    color: #f08e80;
+  }
+}
+
+/* .BeforeScroll {
+  display: none;
+} */

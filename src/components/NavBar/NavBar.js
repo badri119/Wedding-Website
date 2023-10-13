@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   useEffect(() => {
@@ -12,6 +13,7 @@ const NavBar = () => {
 
     const observer = new IntersectionObserver(
       ([e]) => {
+        console.log(e.intersectionRatio);
         e.target.classList.toggle("is-pinned", e.intersectionRatio < 1);
       },
       { threshold: [1] }
@@ -26,24 +28,34 @@ const NavBar = () => {
         <div className="primary-header__inner">
           <ul className="nav-list">
             <li>
-              <a className="navlinks" href="#">
+              <Link
+                to="landingPage"
+                smooth={true}
+                duration={500}
+                className="navlinks"
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="navlinks" href="#">
+              <Link
+                to="eventsScroll"
+                smooth={true}
+                duration={500}
+                className="navlinks"
+              >
                 Events
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="navlinks" href="#">
+              <Link
+                to="stayScroll"
+                smooth={true}
+                duration={500}
+                className="navlinks"
+              >
                 Stay
-              </a>
-            </li>
-            <li>
-              <a className="navlinks" href="#">
-                Transport
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
