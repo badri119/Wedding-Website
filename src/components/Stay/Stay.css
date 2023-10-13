@@ -16,6 +16,7 @@
   color: #777;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .stayeventcontainer {
@@ -58,7 +59,7 @@ staybody-container:focus {
 .staytitlecontent {
   font-size: 1.5em;
   font-weight: 500;
-  padding-top: 50px;
+  padding-top: 30px;
   color: black;
 }
 

@@ -5,7 +5,7 @@ import wedding from "../../assets/wedding.png";
 
 const Events = () => {
   return (
-    <div className="eventbody">
+    <div className="eventbody" name="eventsScroll">
       <h2 className="eventstitle">Events</h2>
 
       <div className="eventcontainer">
@@ -50,7 +50,7 @@ const Events = () => {
                   us for an evening of delicious drinks, dance and delightful
                   company as we kick off our wedding festivities in style.
                 </p>
-                <div>
+                {/* <div>
                   <a
                     href="https://forms.gle/rnnJHmGZM4VnY6A68"
                     target="_blank"
@@ -59,7 +59,7 @@ const Events = () => {
                   >
                     RSVP
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Events = () => {
                   auspicious and carefully chosen moment that marks the
                   beginning of our lifelong journey together.
                 </p>
-                <div>
+                {/* <div>
                   <a
                     href="https://forms.gle/rnnJHmGZM4VnY6A68"
                     target="_blank"
@@ -113,11 +113,21 @@ const Events = () => {
                   >
                     RSVP
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="rsvpevent">
+        <a
+          href="https://forms.gle/rnnJHmGZM4VnY6A68"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rsvp_button_events"
+        >
+          RSVP
+        </a>
       </div>
     </div>
   );
