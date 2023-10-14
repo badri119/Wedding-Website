@@ -9,7 +9,7 @@ import { Link, Element } from "react-scroll";
 
 function App() {
   return (
-    <div className="App" name="landingPage">
+    <div className="App" name="landingage">
       <div className="background-image"></div>
       <h1 className="mainNameTitle">Janaki & Vinay</h1>
       <NavBar />

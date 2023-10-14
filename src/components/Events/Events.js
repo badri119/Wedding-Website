@@ -42,7 +42,7 @@ const Events = () => {
                 </p>
                 <p className="info">
                   Saturday, December 2nd
-                  <p className="attire">Attire: Pattu Sarees & Veshtis</p>
+                  <p className="attire">Attire: Bolloywood Glam</p>
                 </p>
 
                 <p className="info description">
@@ -96,7 +96,7 @@ const Events = () => {
                 </p>
                 <p className="info">
                   Monday, December 4th
-                  <p className="attire">Attire: Pattu Sarees & Veshtis</p>
+                  <p className="attire">Attire: Southern Chic</p>
                 </p>
 
                 <p className="info description">

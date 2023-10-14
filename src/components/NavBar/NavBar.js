@@ -13,7 +13,6 @@ const NavBar = () => {
 
     const observer = new IntersectionObserver(
       ([e]) => {
-        console.log(e.intersectionRatio);
         e.target.classList.toggle("is-pinned", e.intersectionRatio < 1);
       },
       { threshold: [1] }
