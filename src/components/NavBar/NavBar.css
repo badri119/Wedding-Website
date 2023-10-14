@@ -73,9 +73,6 @@
   transition: transform 0.5s;
   cursor: pointer;
 }
-.navlinks:hover {
-  transform: scale(1.2);
-}
 
 @media (max-width: 767px) {
   .primary-header {

@@ -4,12 +4,11 @@ import React from "react";
 const Stay = () => {
   return (
     <div className="staybody" name="stayScroll">
-      <h2 className="staytitle">Hotel Recommendations</h2>
+      <h2 className="staytitle">Accomodations</h2>
       <div>
         <p className=" staytext">
           {" "}
-          Here are a bunch of hotels that you can stay at during your visit to
-          San Franciso
+          Please find below a list of hotels near the wedding venue
         </p>
       </div>
 
