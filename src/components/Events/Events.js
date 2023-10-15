@@ -1,7 +1,7 @@
 import "./Events.css";
 import React from "react";
-import cocktail1 from "../../assets/cocktail.png";
-import wedding from "../../assets/wedding.png";
+import cocktail1 from "../../assets/cocktail.jpeg";
+import wedding from "../../assets/iyer2.jpeg";
 
 const Events = () => {
   return (
@@ -31,17 +31,18 @@ const Events = () => {
                     <span>
                       <a
                         className="venuelink"
-                        href="https://maps.app.goo.gl/PGTCPTYrXipMqzyx7?g_st=iw"
+                        href="https://maps.app.goo.gl/VahGHLx1WbM9FWrF8"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        43618 Skye Rd
+                        Del Valle Winery
                       </a>
                     </span>
                   </p>
                 </p>
                 <p className="info">
-                  Saturday, December 2nd
+                  Sunday, December 3rd
+                  <p>Time: 5:30 PM - 10PM PT</p>
                   <p className="attire">Attire: Bolloywood Glam</p>
                 </p>
 
@@ -96,6 +97,7 @@ const Events = () => {
                 </p>
                 <p className="info">
                   Monday, December 4th
+                  <p>Time: 9:00 AM PT</p>
                   <p className="attire">Attire: Southern Chic</p>
                 </p>
 

@@ -3,8 +3,8 @@
 .staytitle {
   color: #f08e80;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
   font-weight: 500;
 }
 
@@ -73,11 +73,12 @@ staybody-container:focus {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
-  color: #0000ee;
+  color: #f08e80;
+  transition: all 0.2s ease-in-out;
 }
 .staymap:hover {
-  font-size: 1.3rem;
-  transition: 0.5s;
+  color: white;
+  background-color: #f08e80;
 }
 
 .iframes {
