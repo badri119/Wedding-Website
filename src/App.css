@@ -5,6 +5,9 @@ body {
   background: white;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 .mainNameTitle {
   font-family: "Alex Brush", cursive;
   text-align: center;

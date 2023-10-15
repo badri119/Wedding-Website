@@ -43,7 +43,7 @@ const Events = () => {
                 <p className="info">
                   Sunday, December 3rd
                   <p>Time: 5:30 PM - 10PM PT</p>
-                  <p className="attire">Attire: Bolloywood Glam</p>
+                  <p className="attire">Attire: Bollywood Glam</p>
                 </p>
 
                 <p className="info description">
