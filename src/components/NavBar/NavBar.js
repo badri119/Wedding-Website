@@ -38,6 +38,7 @@ const NavBar = () => {
                 smooth={true}
                 duration={500}
                 className="navlinks"
+                offset={-54}
               >
                 Events
               </Link>
@@ -48,8 +49,9 @@ const NavBar = () => {
                 smooth={true}
                 duration={500}
                 className="navlinks"
+                offset={-54}
               >
-                Stay
+                Accomodations
               </Link>
             </li>
           </ul>
