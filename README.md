@@ -1,7 +1,6 @@
 Developed a wedding website for my sister using Javascript, React, HTML and CSS.
-A little sneak peak of the website:
 
-![image](https://github.com/badri119/Wedding-Website/assets/90651004/9cb7a2ff-ddaf-414d-8b10-65652aad8f90)
+Website currently deployed at: https://www.jv-wedding.com
 
  
 Getting Started with Create React App
@@ -13,6 +12,5 @@ In the project directory, you can run:
 npm start
 
 
-PS: Still working on the project and will be adding a little more styling and components to it.
 
 
