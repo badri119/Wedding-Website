@@ -47,7 +47,7 @@ const Events = () => {
                 </p>
 
                 <p className="info description">
-                  "Sip, Savor, and Celebrate with us at our Cocktail Night! Join
+                  Sip, Savor, and Celebrate with us at our Cocktail Night! Join
                   us for an evening of delicious drinks, dance and delightful
                   company as we kick off our wedding festivities in style.
                 </p>
