@@ -102,3 +102,16 @@
     transform: scale(1, 1) translate(0px, 0px);
   }
 }
+
+@media (max-width: 767px) {
+  .scroll-button {
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    width: 100%;
+    animation: bounce 2s infinite;
+    display: flex;
+    bottom: 120px;
+    cursor: pointer;
+  }
+}
