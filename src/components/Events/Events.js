@@ -4,126 +4,90 @@ import cocktail1 from "../../assets/cocktail.jpeg";
 import wedding from "../../assets/iyer2.jpeg";
 
 const Events = () => {
+  const events = [
+    {
+      id: 1,
+      src: cocktail1,
+      text: "Cocktail Night",
+      venue: "https://maps.app.goo.gl/VahGHLx1WbM9FWrF8",
+      name: "Del Valle Winery",
+      date: "Sunday, December 3rd",
+      time: "Time: 5:30 PM - 10PM PT",
+      attire: "Attire: Bollywood Glam",
+      para: `Sip, Savor, and Celebrate with us at our Cocktail Night! Join
+    us for an evening of delicious drinks, dance and delightful
+    company as we kick off our wedding festivities in style.`,
+    },
+
+    {
+      id: 2,
+      src: wedding,
+      text: "Muhurtham",
+      venue: "https://maps.app.goo.gl/PGTCPTYrXipMqzyx7?g_st=iw",
+      name: "43618 Skye Rd",
+      date: "Monday, December 4th",
+      time: "Time: 9:00 AM PT",
+      attire: "Attire: Southern Chic",
+      para: `At the heart of every Indian wedding is the 'Muhurtham' – the
+    auspicious and carefully chosen moment that marks the
+    beginning of our lifelong journey together.`,
+    },
+  ];
   return (
     <div className="eventbody" name="eventsScroll">
       <h2 className="eventstitle">Events</h2>
 
       <div className="eventcontainer">
-        <div className="item-container">
-          <div className="img-container">
-            <img src={cocktail1} alt="Event image"></img>
-          </div>
+        {events.map(
+          ({ id, src, text, venue, name, date, time, attire, para }) => (
+            <div className="item-container">
+              <div key={id} className="img-container">
+                <img src={src} alt="Event"></img>
+              </div>
 
-          <div className="body-container">
-            <div className="overlay"></div>
+              <div className="body-container">
+                <div className="overlay"></div>
 
-            <div className="event-info">
-              <p className="title">Cocktail Night</p>
-              <div className="separator"></div>
+                <div className="event-info">
+                  <p className="title">{text}</p>
+                  <div className="separator"></div>
 
-              <div className="additional-info">
-                <p className="info">
-                  <p>
-                    <p className="hoveringinfo">
-                      Hover or click for more info..
+                  <div className="additional-info">
+                    <p className="info">
+                      <p>
+                        <p className="hoveringinfo">
+                          Hover or click for more info..
+                        </p>
+                        Venue:{" "}
+                        <span>
+                          <a
+                            className="venuelink"
+                            href={venue}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {name}
+                          </a>
+                        </span>
+                      </p>
                     </p>
-                    Venue:{" "}
-                    <span>
-                      <a
-                        className="venuelink"
-                        href="https://maps.app.goo.gl/VahGHLx1WbM9FWrF8"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Del Valle Winery
-                      </a>
-                    </span>
-                  </p>
-                </p>
-                <p className="info">
-                  Sunday, December 3rd
-                  <p>Time: 5:30 PM - 10PM PT</p>
-                  <p className="attire">Attire: Bollywood Glam</p>
-                </p>
+                    <p className="info">
+                      {date}
+                      <p>{time}</p>
+                      <p className="attire">{attire}</p>
+                    </p>
 
-                <p className="info description">
-                  Sip, Savor, and Celebrate with us at our Cocktail Night! Join
-                  us for an evening of delicious drinks, dance and delightful
-                  company as we kick off our wedding festivities in style.
-                </p>
-                {/* <div>
-                  <a
-                    href="https://forms.gle/rnnJHmGZM4VnY6A68"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="rsvp_button_events"
-                  >
-                    RSVP
-                  </a>
-                </div> */}
+                    <p className="info description">{para}</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="item-container">
-          <div className="img-container">
-            <img src={wedding} alt="Event image"></img>
-          </div>
-
-          <div className="body-container">
-            <div className="overlay"></div>
-
-            <div className="event-info">
-              <p className="title">Muhurtham</p>
-              <div className="separator"></div>
-
-              <div className="additional-info">
-                <p className="info">
-                  <p className="hoveringinfo">Hover or click for more info..</p>
-                  <p>
-                    Venue:{" "}
-                    <span>
-                      <a
-                        className="venuelink"
-                        href="https://maps.app.goo.gl/PGTCPTYrXipMqzyx7?g_st=iw"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        43618 Skye Rd
-                      </a>
-                    </span>
-                  </p>
-                </p>
-                <p className="info">
-                  Monday, December 4th
-                  <p>Time: 9:00 AM PT</p>
-                  <p className="attire">Attire: Southern Chic</p>
-                </p>
-
-                <p className="info description">
-                  At the heart of every Indian wedding is the 'Muhurtham' – the
-                  auspicious and carefully chosen moment that marks the
-                  beginning of our lifelong journey together.
-                </p>
-                {/* <div>
-                  <a
-                    href="https://forms.gle/rnnJHmGZM4VnY6A68"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="rsvp_button_events"
-                  >
-                    RSVP
-                  </a>
-                </div> */}
-              </div>
-            </div>
-          </div>
-        </div>
+          )
+        )}
       </div>
       <div className="rsvpevent">
         <a
-          href="https://forms.gle/rnnJHmGZM4VnY6A68"
+          href="https://www.theknot.com/us/janaki-kannan-and-vinay-vijayakumar-dec-2023/rsvp"
           target="_blank"
           rel="noopener noreferrer"
           className="rsvp_button_events"

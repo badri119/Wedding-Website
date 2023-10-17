@@ -54,7 +54,7 @@ const CountDown = () => {
         <div className="date">December 4th</div>
         <div className="location">San Francisco</div>
         <a
-          href="https://forms.gle/rnnJHmGZM4VnY6A68"
+          href="https://www.theknot.com/us/janaki-kannan-and-vinay-vijayakumar-dec-2023/rsvp"
           target="_blank"
           rel="noopener noreferrer"
           className="rsvp_button"
