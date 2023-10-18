@@ -31,7 +31,7 @@
   position: relative;
   margin: 24px;
   width: 320px;
-  height: 570px;
+  height: 520px;
   overflow: hidden;
   background-color: gray;
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
@@ -72,9 +72,11 @@ staybody-container:focus {
 .staymap {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  font-weight: bolder;
+  font-weight: 600;
   color: #f08e80;
   transition: all 0.2s ease-in-out;
+  position: relative;
+  top: 5px;
 }
 .staymap:hover {
   color: white;
