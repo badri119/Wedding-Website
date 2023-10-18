@@ -95,3 +95,8 @@ staybody-container:focus {
   margin-top: 20px;
   font-size: x-large;
 }
+
+.number {
+  text-decoration: none;
+  color: black;
+}
