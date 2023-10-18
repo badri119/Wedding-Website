@@ -1,12 +1,12 @@
 import "./Stay.css";
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faGlobe } from "@fortawesome/free-solid-svg-icons";
 const Stay = () => {
   const stay = [
     {
       id: 1,
       hName: "Courtyard by Marriott Fremont Silicon Valley",
-      hAdd: "47000 Lakeview Blvd, Fremont, CA 94538, United States",
       pNum: "+1 510-656-1800",
       Hurl: "https://www.marriott.com/en-us/hotels/sjcfe-courtyard-fremont-silicon-valley/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
       iframe:
@@ -15,7 +15,6 @@ const Stay = () => {
     {
       id: 2,
       hName: "Hyatt Place Fremont/Silicon Valley",
-      hAdd: "3101 W Warren Ave, Fremont, CA 94538, United States",
       pNum: "+1 510-623-6000",
       Hurl: "https://www.hyatt.com/en-US/hotel/california/hyatt-place-fremont-silicon-valley/sfozf?src=corp_lclb_gmb_seo_sfozf",
       iframe:
@@ -24,7 +23,6 @@ const Stay = () => {
     {
       id: 3,
       hName: "Residence Inn by Marriott Milpitas Silicon Valley",
-      hAdd: "1501 California Cir, Milpitas, CA 95035, United States",
       pNum: "+1 408-941-9222",
       Hurl: "https://www.marriott.com/en-us/hotels/sjcml-residence-inn-milpitas-silicon-valley/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
       iframe:
@@ -33,7 +31,7 @@ const Stay = () => {
   ];
   return (
     <div className="staybody" name="stayScroll">
-      <h2 className="staytitle">Accomodations</h2>
+      <h2 className="staytitle">Accommodations</h2>
       <div>
         <p className=" staytext">
           {" "}
@@ -42,12 +40,14 @@ const Stay = () => {
       </div>
 
       <div className="stayeventcontainer">
-        {stay.map(({ id, hName, hAdd, pNum, Hurl, iframe }) => (
+        {stay.map(({ id, hName, pNum, Hurl, iframe }) => (
           <div className="stayitem-container">
             <div key={id} className="staybody-container">
               <p className="staytitlecontent">{hName}</p>
-              <p className="stayaddress">{hAdd}</p>
-              <p>{pNum}</p>
+              <br></br>
+              <p>
+                <FontAwesomeIcon icon={faPhone} /> {pNum}
+              </p>
               <p className="staymaps">
                 <a
                   className="staymap"
@@ -55,7 +55,7 @@ const Stay = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Hotel's Website
+                  <FontAwesomeIcon icon={faGlobe} /> Website
                 </a>
 
                 <iframe

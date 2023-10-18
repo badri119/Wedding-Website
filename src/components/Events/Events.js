@@ -15,7 +15,7 @@ const Events = () => {
       time: "Time: 5:30 PM - 10PM PT",
       attire: "Attire: Bollywood Glam",
       para: `Sip, Savor, and Celebrate with us at our Cocktail Night! Join
-    us for an evening of delicious drinks, dance and delightful
+    us for an evening of drinks, dance and delightful
     company as we kick off our wedding festivities in style.`,
     },
 
@@ -26,7 +26,7 @@ const Events = () => {
       venue: "https://maps.app.goo.gl/PGTCPTYrXipMqzyx7?g_st=iw",
       name: "43618 Skye Rd",
       date: "Monday, December 4th",
-      time: "Time: 9:00 AM PT",
+      time: "Wedding festivities begin at 6:30 AM Muhurtham: 9 AM PT",
       attire: "Attire: Southern Chic",
       para: `At the heart of every Indian wedding is the 'Muhurtham' – the
     auspicious and carefully chosen moment that marks the
