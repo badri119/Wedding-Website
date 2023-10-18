@@ -46,9 +46,7 @@ const Stay = () => {
               <p className="staytitlecontent">{hName}</p>
               <br></br>
               <p>
-                <a className="number" href={pNum}>
-                  <FontAwesomeIcon icon={faPhone} color="gray" /> {pNum}
-                </a>
+                <FontAwesomeIcon icon={faPhone} /> {pNum}
               </p>
               <p className="staymaps">
                 <a
