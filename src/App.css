@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
 }
 
 .background-image {
-  background-image: url(/src/assets/jandv.jpeg);
+  background-image: url(/src/assets/compressed.jpg);
   width: 100%;
   height: 100vh;
   position: absolute;
