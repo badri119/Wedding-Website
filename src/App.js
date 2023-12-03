@@ -4,6 +4,7 @@ import CountDown from "./components/CountDown/CountDown";
 import Events from "./components/Events/Events";
 import Stay from "./components/Stay/Stay";
 import Ending from "./components/Ending/Ending";
+import Youtube from "./components/Youtube/Youtube";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CountDown />
       <Events />
       <Stay />
+      <Youtube />
       <Ending />
     </div>
   );
