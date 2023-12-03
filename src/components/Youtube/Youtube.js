@@ -16,7 +16,7 @@ const Youtube = () => {
         <iframe
           width="620"
           height="315"
-          src="https://www.youtube.com/watch?v=QCMvZzs97So"
+          src="https://www.youtube.com/embed/QCMvZzs97So?si=tc_OzFJ9kg6CC8zv"
         ></iframe>
       </div>
     </div>
