@@ -8,7 +8,8 @@ const Stay = () => {
       id: 1,
       hName: "Courtyard by Marriott Fremont Silicon Valley",
       pNum: "+1 510-656-1800",
-      Hurl: "https://www.marriott.com/en-us/hotels/sjcfe-courtyard-fremont-silicon-valley/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      text: "Room Block: ",
+      Hurl: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1699025564653&key=GRP&app=resvlink",
       iframe:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.218428357446!2d-121.93873242413025!3d37.47917157206133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc637fe2eb7b3%3A0x82bf7e6b60213f80!2sCourtyard%20by%20Marriott%20Fremont%20Silicon%20Valley!5e0!3m2!1sen!2sca!4v1697227223857!5m2!1sen!2sca",
     },
