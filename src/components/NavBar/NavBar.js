@@ -54,17 +54,7 @@ const NavBar = () => {
                 Accomodations
               </Link>
             </li>
-            <li>
-              <Link
-                to="youtubescroll"
-                smooth={true}
-                duration={500}
-                className="navlinks"
-                offset={-54}
-              >
-                Youtube Live Stream
-              </Link>
-            </li>
+            <li></li>
           </ul>
         </div>
       </div>
