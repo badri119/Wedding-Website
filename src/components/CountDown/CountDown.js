@@ -3,7 +3,7 @@ import "./CountDown.css";
 import { IoChevronDownCircleSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
 
-var countDownDate = new Date("Dec 4, 2023 09:00:00").getTime();
+var countDownDate = new Date("Mar 4, 2024 09:00:00").getTime();
 var x = setInterval(function () {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -51,7 +51,7 @@ const CountDown = () => {
         </div>
       </div>
       <div className="rsvp_section">
-        <div className="date">December 4th</div>
+        <div className="date">March 4th</div>
         <div className="location">San Francisco</div>
         <a
           href="https://www.theknot.com/us/janaki-kannan-and-vinay-vijayakumar-dec-2023/rsvp"

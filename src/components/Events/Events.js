@@ -11,7 +11,7 @@ const Events = () => {
       text: "Cocktail Night",
       venue: "https://maps.app.goo.gl/VahGHLx1WbM9FWrF8",
       name: "Del Valle Winery",
-      date: "Sunday, December 3rd",
+      date: "Sunday, March 3rd",
       time: "Time: 5:30 PM - 10PM PT",
       attire: "Attire: Bollywood Glam",
       para: `Sip, Savor, and Celebrate with us at our Cocktail Night! Join
@@ -25,7 +25,7 @@ const Events = () => {
       text: "Muhurtham",
       venue: "https://maps.app.goo.gl/VahGHLx1WbM9FWrF8",
       name: "Del Valle Winery",
-      date: "Monday, December 4th",
+      date: "Monday, March 4th",
       time: "Wedding festivities begin at 6:30 AM Muhurtham: 9 AM PT",
       attire: "Attire: Southern Chic",
       para: `At the heart of every Indian wedding is the 'Muhurtham' – the
